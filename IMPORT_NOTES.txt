@@ -1,0 +1,26 @@
+Unity package import completed on 2026.10.13
+
+Editor 6000.5.9f1
+Main scene Assets/Scene/GameScene.unity
+Source package SHA256 76a8cc08ac3c8c16b583993b4ab1a1708eda3eb6678353b464c7bbe817ed8748
+The original package was not modified.
+
+Imported 457 package entries into a new Universal 2D project.
+Converted Tuanjie YAML namespace to Unity and GameScene.scene to GameScene.unity.
+Installed AI Navigation and NavMeshPlus through Package Manager.
+Configured the imported URP pipeline, sorting layers, both input systems, and the build scene.
+Updated legacy TMP example UV types in VertexZoom.cs and TMP_TextSelector_B.cs for Unity 6.
+Unity API updater and asset upgrades were enabled.
+GameScene received a new GUID because the original collided with the template scene.
+Import setup source was moved to ImportTools after use.
+
+Verification
+Scripts compile successfully.
+Main scene opens and saves with 54 GameObjects.
+Two missing script references remain in the main scene because their source scripts are absent from the package.
+UI_ShelterPopulationBottomRight references GUID dcc78d4d747d87141a3e33477c830a5e.
+The furnace prefab references GUID 06cb2bf49532ae748a58cdaf8b90e3ab.
+These references have been preserved for later source recovery.
+The TMP example Text Popup prefab also refers to an absent example script.
+No complete Play Mode gameplay test was performed.
+Logs/ImportVerification4.log contains the scene verification and the deliberate failure on missing scripts.
